@@ -1,0 +1,465 @@
+/* 共通　*/
+
+.html {
+    height: 100%;
+}
+body {
+	width:auto;
+    min-height: 100%;
+    min-width:1080px;
+    
+}
+.header{
+ background-color:#F9A825;
+ height:80px;
+ width:auto;
+
+}
+.form{
+ background-color:#FFFF8D;
+}
+.message{
+ text-align:center;	
+ color:red;
+}
+
+.topbody{
+ background-color:#FFFF8D;	
+}
+
+.tablebody{
+ background-color:#FFFF8D;	
+}
+
+/*生徒用ログインページ*/
+.student-login {
+display:block;
+position:center;
+margin-top:80px;
+}
+
+.login{
+ text-align:center;
+ padding-top: 30px;
+ padding-left: 30px;
+}
+.student-login.form tbody {
+padding-left:0px;
+}
+
+/*管理者用パスページ*/
+.admin-jadge{
+display:block;
+position:center;
+margin-top:80px;
+}
+
+.admin-login{
+ text-align:center;
+ padding-top: 10px;
+ padding-left: 30px;
+}
+
+.form table{
+ margin: auto;
+ padding-left:0px;
+}
+
+/*ダッシュボード*/
+
+.dlist{
+  table-layout: fixed;
+ /* width: 90%;*/
+  margin-left:10px;	
+  text-align: center;
+}
+.container {
+ display:flex;	
+ 
+}
+
+.side {
+ background-color:#FFFF8D;
+ height:800px;
+ width:20%;
+ text-align:center;
+ padding-right: 5px;
+ padding-top:70px;
+ min-width :200px;
+}
+
+.main {
+ background-color:#FFFFFF;
+ height:800px;
+ width:80%;
+ flex-grow: 1;
+ padding-left: 70px;
+ padding-top:50px;
+ 
+ min-width :800px;
+}
+
+/*ダッシュボード(生徒)*/
+.smtable{	
+ width:60%;
+ position:absolute;
+ top:250px;
+ left:280px;
+ text-align:center;
+}
+
+/*ダッシュボード(管理)*/
+
+/*イベント一覧*/
+
+.elbody{
+ background-color:#FFFF8D;
+ text-align: center; 
+ margin-top:80px;
+}
+
+/*イベント登録*/
+.event-register {
+	margin-top:50px;
+}
+.event-register h2{
+	text-align:center;
+}
+.event-form-container{
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+/*イベント登録確認画面*/
+.register-confirm{
+	text-align:center;
+}
+.register-confirm-table{
+
+ position:absolute;
+ top:120px;
+ left:280px;
+ text-align:center;
+}
+.register-confirm-btn{
+ position:absolute;
+ top:240px;
+ left:470px; 
+ text-align:center;
+}
+
+/*イベント編集画面*/
+.edit-table{
+margin-bottom:30px;	
+}
+.confirm-table{
+
+ position:absolute;
+ top:120px;
+ left:280px;
+  
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*イベント参加者一覧*/
+.event-form-container{
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+/*ユーザー一覧*/
+
+.admin-form{
+	display:flex;
+	position:center;
+	text-align:center;
+}
+.return-link{
+	margin:auto;
+	text-align:center;
+}
+.form-container{
+  width: 360px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  
+}
+.add-student {
+	background-color:#ededed;
+	height:600px;
+	width:600px;
+	margin:auto;
+}
+.add-admin {
+	background-color:#ededed;
+	height:600px;
+	width:600px;
+	margin:auto;
+}
+
+.event-form-container{
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align:center; 
+}
+.entry-table-st{
+	padding-left:250px;
+	}
+.entry-table-ad{
+	padding-left:240px;
+	}
+
+.listbg{
+ width: 600px;
+  margin: 0 auto;
+ 
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align:center; 
+}
+.listtitle{
+font-size:20pt;
+ margin-top:50px;
+ 
+}
+
+/*ユーザー削除画面*/
+.conf-delete{
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  position:absolute;
+  top:120px;
+  left:350px;
+  text-align:center;
+  
+}
+/*ユーザー登録画面*/
+.add-admin-title{
+	 text-align:center;
+}
+.add-admin-title p{
+	 text-align:center;
+}
+.add-student-title{
+	text-align:center;
+	margin:50px auto 30px auto;
+}
+/*ユーザー登録,ユーザー登録確認画面*/
+.add-student-table{
+width: 400px;
+ position:absolute;
+ padding-top:200pxx;
+ padding-left:280px;
+ 
+}
+
+.conf-add-title{
+	text-align:center;
+}
+.conf-add-form-container{
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align:center;
+}
+  
+/*ボタンｃｓｓ*/
+input[type="text"],
+input[type="password"] 
+{
+  width: 98%x;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  min-width:100px;
+  padding: 10px;
+  background-color: #e58f04;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:5px;
+}
+input[type="button"] {
+  min-width:100px;
+  padding: 10px;
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:5px;
+}
+
+input[type="submit"]:hover {
+  background-color:#995f01;
+}
+
+/*ボタン*/
+.btn{
+ /*display: block;
+ background:#00C853;
+ padding: 15px 0;
+ margin: auto;
+ color: #FFFFFF;
+ text-decoration: none;
+ text-align: center;
+ font-size:14px;
+ border-radius:3px;*/
+ width: 70%;
+ 
+}
+/*ログインボタン*/
+.lobtn{
+ 
+  width: 70%;
+ /* padding: 15px 0;
+  margin: auto;
+  background: #AA0000;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  font-size:14px;
+  border-radius:3px;
+  display: block;*/
+}
+
+/*戻るボタン*/
+.rebtn{
+ /*display: block;
+ 
+ top:60%;
+ bottom:40%;
+ padding: 15px 0;
+ margin: auto;
+ background: #191970;
+ color: #FFFFFF;
+ text-decoration: none;
+ text-align: center;
+ font-size:14px;
+ border-radius:3px;*/
+  width: 70%;
+  max-width: 100px;
+}
+/*新規登録ボタン*/
+.uregbtn{
+  min-width:120px;
+  padding: 10px;
+  margin:5px;
+}
+.left-btn{
+	min-width:120px;
+  padding-top: 10px;
+  padding-left: 350px;
+  margin:5px;
+  
+}
+
+
+.listtable{
+ margin:auto;
+ width:60%;
+ text-align:center;
+}
+
+.logo{
+ padding-top:16px;
+ padding-right:0;
+ padding-left:5px;
+ display: block;
+}
+
+.title{
+  text-align:center;
+}
+
+.return{
+ text-align:center;
+}
+
+.login2{
+ position:relative;		
+ left:50px;
+}
+
+
+
+.table{
+ margin: auto;
+}
+
+.evtable{
+ width: 80%;
+ text-align: center;
+ vertical-align: top;
+ background-color:#FFFFFF;
+}
+
+
+.regbtn{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 240px 10px 10px;
+  margin-top:50px
+}
+
+.event_list_table{
+ margin:auto;
+ 
+}
+
+.entbtn{
+ width:fixed;	
+}
+
+.rebtn2{
+ display: block;
+ width: 150px;
+ top:60%;
+ bottom:40%;
+ padding: 15px 0;
+ margin: left;
+ background: #191970;
+ color: #FFFFFF;
+ text-decoration: none;
+ text-align: center;
+ font-size:14px;
+ border-radius:3px;
+}
+
+.caption {
+ text-align: left; 
+}
