@@ -1,3 +1,6 @@
+○開発環境
+Windows、Eclipse（Tomcat9/Java17）、JDK、DBeaver、postgreSQL
+
 ○要件定義
 【システムの概要】
 ユーザー登録制のイベント管理アプリ
